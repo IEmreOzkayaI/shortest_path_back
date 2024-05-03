@@ -1,9 +1,9 @@
 // graph.service.ts
 import { Injectable } from '@nestjs/common';
 import { PinoLogger } from 'nestjs-pino';
-import { AirportService } from 'src/airport/airport.service';
-import { PriorityQueue } from 'src/common/priorityQueue.ds';
-import { FlightService } from 'src/flight/flight.service';
+import { AirportService } from '../airport/airport.service';
+import { PriorityQueue } from '../common/priorityQueue.ds';
+import { FlightService } from '../flight/flight.service';
 import { AirportDistance, Edge } from './graph.interfaces';
 import { performance } from 'perf_hooks';
 

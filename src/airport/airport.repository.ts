@@ -1,7 +1,7 @@
 import { InjectDataSource } from '@nestjs/typeorm';
 import { Airport } from './airport.entity';
 import { Inject, Injectable, Scope } from '@nestjs/common';
-import { BaseRepository } from 'src/common/db/base-repository.model';
+import { BaseRepository } from '../common/db/base-repository.model';
 import { DataSource } from 'typeorm';
 
 import { Request } from 'express';
